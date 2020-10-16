@@ -1,5 +1,5 @@
-import { Component, forwardRef, Input, ElementRef, Renderer2 } from '@angular/core';
-import { NG_VALUE_ACCESSOR, ControlValueAccessor, NgModel } from '@angular/forms';
+import { Component, forwardRef, Input } from '@angular/core';
+import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 import { ModalController } from '@ionic/angular';
 import { Ionic4DatepickerModalComponent } from './ionic4-datepicker-modal/ionic4-datepicker-modal.component';
 import * as moment_ from 'moment';
@@ -32,7 +32,7 @@ export class Ionic4DatepickerComponent implements ControlValueAccessor {
   private onTouchedCallback: () => void = noop;
   private onChangeCallback: (_: any) => void = noop;
 
-  constructor(private modalCtrl: ModalController, public el: ElementRef, public renderer2: Renderer2) {}
+  constructor(private modalCtrl: ModalController) {}
 
   resetDate() {
     this.selectedDate = new Date();
