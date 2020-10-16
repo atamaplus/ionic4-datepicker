@@ -439,6 +439,7 @@ export class Ionic4DatepickerModalComponent implements OnInit, OnDestroy {
     objConfig.setLabel = config.setLabel ? config.setLabel : 'Set';
     objConfig.todayLabel = config.todayLabel ? config.todayLabel : 'Today';
     objConfig.closeLabel = config.closeLabel ? config.closeLabel : 'Close';
+    objConfig.closeFill = config.closeFill ? config.closeFill: '';
     objConfig.disabledDates = config.disabledDates ? config.disabledDates : [];
     objConfig.titleLabel = config.titleLabel ? config.titleLabel : null;
 
