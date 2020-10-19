@@ -195,8 +195,6 @@
     }
 
     ion-footer {
-        height: 75px;
-
         ion-toolbar {
             height: 100%;
             --border-width: 0;
@@ -214,8 +212,6 @@
             }
 
             ion-button {
-                --border-radius: 0;
-                height: 55px;
                 margin: 0;
 
                 &:focus {
