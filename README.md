@@ -1,3 +1,13 @@
+[deprecated] [archived]
+
+## このライブラリは現在は利用されていません
+
+* atamaplus-mobileの中に取り込まれました。
+* 取り込まれたPullRequest:　https://github.com/atamaplus/atamaplus-mobile/pull/5104
+
+
+
+-----
 
 # Ionic4 DatePicker
 
